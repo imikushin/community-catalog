@@ -1,0 +1,4 @@
+name: KubeDNS
+description: Kubernetes DNS Service
+version: 1.8-rancher1
+category: Clustering

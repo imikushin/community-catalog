@@ -1,0 +1,11 @@
+.catalog:
+  name: KubeDNS
+  version: 1.8-rancher1
+  description: Kubernetes DNS Service
+  questions:
+    - variable: "DNS_REPLICAS"
+      label: "Number of replicas"
+      required: true
+      type: int
+      default: 2
+      description: "should be >= 1"
