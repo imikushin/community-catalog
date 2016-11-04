@@ -1,6 +1,6 @@
 # KubeDNS
 
-Kubernetes offers a DNS cluster addon, which most of the supported environments
-enable by default.  We use [SkyDNS](https://github.com/skynetservices/skydns)
-as the DNS server, with some custom logic to slave it to the kubernetes API
-server.
+[KubeDNS](https://github.com/kubernetes/kubernetes/blob/release-1.4/build/kube-dns) is a DNS service for Kubernetes.
+
+**Important:** `10.43.0.10` is used as the KubeDNS Service IP address and `cluster.local` - as the local domain in 
+Rancher Kubernetes environments.
